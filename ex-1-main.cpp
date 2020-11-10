@@ -16,7 +16,7 @@ int nth_prime(unsigned int a, unsigned int d, unsigned int n) {
 
 int main() {
 
-	std::cout << nth_prime(367, 186, 151) << std::endl;
-
+	std::cout << "367 ,186 ,151 : 92809 : "<< nth_prime(367, 186, 151) << std::endl;
+	std::cout << "179 ,10 ,203 : 6709 : "<< nth_prime(179, 10, 203) << std::endl;
 	return 0;
 }
